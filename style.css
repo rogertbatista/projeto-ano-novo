@@ -12,6 +12,7 @@ html,body{
     height: 100vh;
     background-image: url('./img/fogos.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .section-center {
