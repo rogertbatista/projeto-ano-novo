@@ -1,11 +1,12 @@
 const anoAtual = document.querySelector('.ano-atual');
 
 let data = new Date();
-anoAtual.textContent = data.getFullYear();
+let anoData = data.getFullYear();
+anoAtual.textContent = anoData;
 
 const contador = document.querySelectorAll('.counter-line-format h4');
 
-const dataFutura = new Date(2023, 11, 31, 23, 59, 0);
+const dataFutura = new Date(anoData, 11, 31, 23, 59, 0);
 
 let tempoFuturo = dataFutura.getTime();
 
